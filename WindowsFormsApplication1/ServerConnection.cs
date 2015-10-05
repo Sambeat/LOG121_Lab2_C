@@ -26,6 +26,7 @@ namespace WindowsFormsApplication1
             socket.Connect(remoteEP);
 
             Console.WriteLine("Connected!");
+            Console.WriteLine("pop");
 
             byte[] msg = Encoding.ASCII.GetBytes("GET");
 
